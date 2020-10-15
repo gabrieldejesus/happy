@@ -16,7 +16,7 @@ aside {
 
 aside h2 {
     margin-top: 6.4rem;
-    font: 800 clam(2rem, 5vw, 3.6rem)/1.1 'Nunito', sans-serif;
+    font: 800 clamp(2rem, 5vw, 3.6rem)/1.1 'Nunito', sans-serif;
 }
 
 aside p {
