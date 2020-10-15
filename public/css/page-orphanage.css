@@ -85,6 +85,10 @@ main {
     object-fit: cover;
 }
 
+/* orphanage-details-content */
+.orphanage-details-content {
+    padding: 8rem;
+}
 .orphanage-details-content h1 {
     color: #4D6F80;
     font-size: 5.4rem;
@@ -181,6 +185,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 6.4rem;
     transition: background-color .2s;
 }
 
