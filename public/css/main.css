@@ -3,13 +3,14 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
   box-sizing: border-box;
 }
 
 body {
   height: 100vh;
   color: #fff;
-  background: #EBF2F5;
+  background: #ebf2f5;
 }
 
 :root {
