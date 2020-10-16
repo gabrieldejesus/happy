@@ -1,47 +1,47 @@
 /* animações */
 @keyframes up {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-    top {
-        opacity: 1;
-    }
+  top {
+    opacity: 1;
+  }
 }
 
 @keyframes appear {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes right {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .animate-up {
-    animation-name: up;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
 }
 
 .animate-right {
-    animation-name: right;
-    animation-duration: 300ms;
+  animation-name: right;
+  animation-duration: 300ms;
 }
 
 .animate-appear {
-    animation-name: appear;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
+  animation-name: appear;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
 }
